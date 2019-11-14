@@ -1,0 +1,5 @@
+server:
+  port: 8020
+spring:  cloud:    config:     uri: http://localhost:8888/  data:    mongodb:      database: recommendation
+      host: 127.0.0.1
+      port: 27017

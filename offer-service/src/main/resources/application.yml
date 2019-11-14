@@ -1,0 +1,9 @@
+server:
+  port: 8010
+spring:  cloud:    config:     uri: http://localhost:8888/  datasource:    url: jdbc:mysql://localhost:3306/db
+    username: root
+    password: pass@word1
+  jpa:
+    hibernate:      ddl-auto: none
+          
+    
